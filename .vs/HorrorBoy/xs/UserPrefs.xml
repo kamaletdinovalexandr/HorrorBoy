@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{A0124435-695D-CDDB-2E30-69D8058A6391}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFolower.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Movement.cs" Line="8" Column="36" />
+      <File FileName="Assets/Scripts/CameraFolower.cs" Line="9" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
