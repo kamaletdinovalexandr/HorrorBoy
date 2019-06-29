@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5692336274204844375}
   - component: {fileID: 5692336274204844372}
   - component: {fileID: 5692336274204844373}
-  - component: {fileID: 5692336274204844374}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -78,20 +77,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &5692336274204844374
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5692336274204844368}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &5692336274514105269
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +93,7 @@ GameObject:
   - component: {fileID: 5692336274514105268}
   m_Layer: 0
   m_Name: Boy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,8 +171,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.81, y: 2.63, z: 1}
-  m_Center: {x: 0, y: 1.02, z: 0}
+  m_Size: {x: 0.81, y: 1.4726506, z: 1}
+  m_Center: {x: 0, y: 0.4413234, z: -0.000000027377297}
 --- !u!114 &5692336274514105279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +188,7 @@ MonoBehaviour:
   _rb: {fileID: 5692336274514105268}
   _speed: 5
   _lightning: {fileID: 0}
+  _jumpForce: 0
 --- !u!54 &5692336274514105268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -444,7 +430,6 @@ GameObject:
   - component: {fileID: 5692336275732296488}
   - component: {fileID: 5692336275732296493}
   - component: {fileID: 5692336275732296494}
-  - component: {fileID: 5692336275732296495}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -511,17 +496,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &5692336275732296495
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5692336275732296489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
